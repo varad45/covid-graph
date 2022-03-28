@@ -1,0 +1,30 @@
+.btns {
+  display: flex;
+  justify-content: center;
+  background-color: #8d8d8d;
+  padding: 1vh;
+  margin: 0 10vw;
+  border-radius: 10vh;
+}
+
+@media (orientation: portrait) {
+  canvas {
+    width: 90vw !important;
+    height: auto !important;
+    margin: auto;
+  }
+}
+
+@media (orientation: landscape) {
+  canvas {
+    height: 85vh !important;
+    width: auto !important;
+    margin: auto;
+  }
+}
+
+.toggles {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
